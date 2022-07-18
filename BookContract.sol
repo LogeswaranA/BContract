@@ -32,8 +32,6 @@ contract BookContract
         string bookName
     );
 
-    /* Creates the sale of a marketplace item */
-    /* Transfers ownership of the item, as well as funds between parties */
     function registerBook(
         string memory _code,
         string memory _bookName,
